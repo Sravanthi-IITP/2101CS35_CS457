@@ -1,14 +1,17 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Playfair Display', serif;
+    background-color: #f5f2e7; /* Soft cream */
     margin: 0;
     padding: 0;
     text-align: center;
+    color: #2f3e46; /* Deep green-gray */
 }
 
+/* Headings */
 h2 {
-    color: #333;
+    color: #3a4d39; /* Rich green */
+    font-weight: bold;
 }
 
 /* Navigation Links */
@@ -17,13 +20,15 @@ a {
     padding: 10px 15px;
     margin: 5px;
     text-decoration: none;
-    color: white;
-    background-color: #007bff;
+    color: #fff;
+    background-color: #8b7042; /* Muted gold */
     border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
 }
 
 a:hover {
-    background-color: #0056b3;
+    background-color: #6f5734; /* Darker muted gold */
 }
 
 /* Forms */
@@ -33,26 +38,29 @@ form {
     width: 300px;
     margin: 20px auto;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    border: 2px solid #3a4d39; /* Elegant border */
 }
 
 input, select, button {
     width: 100%;
     padding: 10px;
     margin-top: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #8b7042;
     border-radius: 5px;
+    font-family: 'Playfair Display', serif;
 }
 
 button {
-    background-color: #28a745;
+    background-color: #3a4d39; /* Deep green */
     color: white;
     cursor: pointer;
     font-size: 16px;
+    font-weight: bold;
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #2f3e46; /* Darker green */
 }
 
 /* Tables */
@@ -61,16 +69,18 @@ table {
     margin: 20px auto;
     border-collapse: collapse;
     background: white;
+    border: 2px solid #3a4d39; /* Elegant border */
 }
 
 th, td {
-    border: 1px solid #ddd;
+    border: 1px solid #8b7042;
     padding: 10px;
     text-align: center;
+    font-family: 'Playfair Display', serif;
 }
 
 th {
-    background: #007bff;
+    background: #3a4d39;
     color: white;
 }
 
@@ -82,14 +92,15 @@ th {
     border-radius: 5px;
     color: white;
     font-weight: bold;
+    font-family: 'Playfair Display', serif;
 }
 
 .flash-message.success {
-    background-color: #28a745;
+    background-color: #3a4d39;
 }
 
 .flash-message.error {
-    background-color: #dc3545;
+    background-color: #a94442; /* Rich red */
 }
 
 /* Centered Container */
@@ -97,4 +108,7 @@ th {
     max-width: 800px;
     margin: auto;
     padding: 20px;
+    border: 2px solid #8b7042;
+    background: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }

@@ -7,7 +7,7 @@ from models import User
 app = Flask(__name__)
 app.secret_key = 'supersecretkey'  # Change this for security
 
-# Initialize MySQL
+
 mysql = init_db(app)
 
 # Flask-Login
